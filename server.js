@@ -27,7 +27,6 @@ app.engine('html', require('ejs').renderFile);
 
 app.use('/public', express.static(__dirname + '/public'));
 app.use('/client', express.static(__dirname + '/client'));
-app.use('/templete', express.static(__dirname + '/templete'));
 app.use('/node_modules', express.static(__dirname + '/node_modules'));
 
 // route 설정

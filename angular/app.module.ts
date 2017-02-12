@@ -4,11 +4,13 @@ import {FormsModule} from '@angular/forms';
 import {HttpModule} from '@angular/http';
 
 import {AppComponent} from './app.component';
+import {TodosComponent} from './components/todos/todos.component';
 
 
 @NgModule({
   imports: [BrowserModule, FormsModule, HttpModule],
-  declarations: [AppComponent],
+  declarations: [AppComponent, TodosComponent],
   bootstrap: [AppComponent]
 })
+
 export class AppModule{}
