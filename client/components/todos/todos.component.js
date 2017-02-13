@@ -16,7 +16,7 @@ var TodosComponent = (function () {
     }
     TodosComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.todosService.getTodoList().subscribe(function (data) { return _this.todoList = data; }, function (error) { return alert(error); }, function () { return console.log(_this.todoList); });
+        this.todosService.getTodoList().subscribe(function (data) { return _this.todoList = data; }, function (error) { return alert(error); });
     };
     return TodosComponent;
 }());
@@ -24,8 +24,11 @@ TodosComponent = __decorate([
     core_1.Component({
         selector: 'todos',
         templateUrl: 'client/components/todos/todos.component.html',
+        // template:`<ul><li *ngFor="let todo of todoList">{{todo.title}}</li></ul>`,
         providers: [TodosCrud_service_1.TodoCrudService]
     }),
     __metadata("design:paramtypes", [TodosCrud_service_1.TodoCrudService])
 ], TodosComponent);
 exports.TodosComponent = TodosComponent;
+
+//# sourceMappingURL=../../client/components/todos/todos.component.js.map

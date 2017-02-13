@@ -24,3 +24,5 @@ AppModule = __decorate([
     })
 ], AppModule);
 exports.AppModule = AppModule;
+
+//# sourceMappingURL=client/app.module.js.map

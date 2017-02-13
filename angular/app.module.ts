@@ -12,5 +12,4 @@ import {TodosComponent} from './components/todos/todos.component';
   declarations: [AppComponent, TodosComponent],
   bootstrap: [AppComponent]
 })
-
 export class AppModule{}

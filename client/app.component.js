@@ -19,3 +19,5 @@ AppComponent = __decorate([
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;
+
+//# sourceMappingURL=client/app.component.js.map

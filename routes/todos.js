@@ -1,7 +1,6 @@
 module.exports = function(app, mysqlClient){
     app.get('/todos',function(req, res){
       mysqlClient.query('select * from todos', function(error, result){
-        console.log(result);
         (error) ? console.log(error) : res.json(result);
       })
     });
