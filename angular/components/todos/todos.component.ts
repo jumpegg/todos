@@ -12,9 +12,7 @@ export class TodosComponent implements OnInit{
 
     todoList:Todo[];
 
-    constructor(private todosService:TodoCrudService){
-
-    }
+    constructor(private todosService:TodoCrudService){}
 
     ngOnInit(){
         this.todosService.getTodoList().subscribe(

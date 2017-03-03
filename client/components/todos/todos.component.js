@@ -24,11 +24,9 @@ TodosComponent = __decorate([
     core_1.Component({
         selector: 'todos',
         templateUrl: 'client/components/todos/todos.component.html',
-        // template:`<ul><li *ngFor="let todo of todoList">{{todo.title}}</li></ul>`,
         providers: [TodosCrud_service_1.TodoCrudService]
     }),
     __metadata("design:paramtypes", [TodosCrud_service_1.TodoCrudService])
 ], TodosComponent);
 exports.TodosComponent = TodosComponent;
-
-//# sourceMappingURL=../../client/components/todos/todos.component.js.map
+//# sourceMappingURL=todos.component.js.map

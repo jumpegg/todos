@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Todo = (function () {
     function Todo(id, title, content) {
         this.id = id;
